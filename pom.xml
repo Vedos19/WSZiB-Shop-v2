@@ -42,6 +42,14 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- to też jest krzysiowe <3 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.1.210</version>
+			<scope>test</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -59,3 +67,4 @@
 	</build>
 
 </project>
+
